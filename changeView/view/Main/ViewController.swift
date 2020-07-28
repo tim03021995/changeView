@@ -26,7 +26,6 @@ class ViewController: UIViewController {
     @IBAction func aa(_ sender: Any){
         if let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "page2") as? SecondViewController{
             vc.text = inputTextField.text //將直傳入第二個viewcontroller
-            //present(vc, animated: true)
             show(vc, sender: nil)
         }
     }
