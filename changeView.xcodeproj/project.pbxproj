@@ -7,23 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D270B274249CB9C10014D064 /* RGBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D270B273249CB9C10014D064 /* RGBViewController.swift */; };
+		D270B2AE24A03F110014D064 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D270B2AD24A03EFC0014D064 /* libsqlite3.tbd */; };
+		D2758B26249A004800DACD08 /* FordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2758B25249A004800DACD08 /* FordViewController.swift */; };
+		D2758B28249AECDC00DACD08 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2758B27249AECDC00DACD08 /* FifthViewController.swift */; };
+		D2758B2A249AFE3E00DACD08 /* Fifth2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2758B29249AFE3E00DACD08 /* Fifth2ViewController.swift */; };
+		D2758B30249CA4CE00DACD08 /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2758B2F249CA4CE00DACD08 /* UserDefault.swift */; };
+		D2758B32249CA70A00DACD08 /* RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2758B31249CA70A00DACD08 /* RGB.swift */; };
 		D2B8675724987CB500801FA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B8675624987CB500801FA7 /* AppDelegate.swift */; };
 		D2B8675924987CB500801FA7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B8675824987CB500801FA7 /* SceneDelegate.swift */; };
 		D2B8675B24987CB500801FA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B8675A24987CB500801FA7 /* ViewController.swift */; };
 		D2B8675E24987CB500801FA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2B8675C24987CB500801FA7 /* Main.storyboard */; };
 		D2B8676024987CBA00801FA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2B8675F24987CBA00801FA7 /* Assets.xcassets */; };
 		D2B8676324987CBA00801FA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2B8676124987CBA00801FA7 /* LaunchScreen.storyboard */; };
+		D2B8676B24987D0B00801FA7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B8676A24987D0B00801FA7 /* SecondViewController.swift */; };
+		D2B8676D24987D5D00801FA7 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B8676C24987D5D00801FA7 /* Protocol.swift */; };
+		D2B867712498C97300801FA7 /* SetButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B867702498C97300801FA7 /* SetButton.swift */; };
+		D2B867732498D3E400801FA7 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B867722498D3E400801FA7 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D270B273249CB9C10014D064 /* RGBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBViewController.swift; sourceTree = "<group>"; };
+		D270B2AD24A03EFC0014D064 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		D270B2B024A040010014D064 /* BridgeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgeHeader.h; sourceTree = "<group>"; };
+		D2758B25249A004800DACD08 /* FordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FordViewController.swift; sourceTree = "<group>"; };
+		D2758B27249AECDC00DACD08 /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
+		D2758B29249AFE3E00DACD08 /* Fifth2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fifth2ViewController.swift; sourceTree = "<group>"; };
+		D2758B2F249CA4CE00DACD08 /* UserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
+		D2758B31249CA70A00DACD08 /* RGB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGB.swift; sourceTree = "<group>"; };
 		D2B8675324987CB500801FA7 /* changeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = changeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2B8675624987CB500801FA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2B8675624987CB500801FA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../New Group/AppDelegate.swift"; sourceTree = "<group>"; };
 		D2B8675824987CB500801FA7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D2B8675A24987CB500801FA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D2B8675D24987CB500801FA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D2B8675F24987CBA00801FA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2B8676224987CBA00801FA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2B8676424987CBA00801FA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2B8676A24987D0B00801FA7 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		D2B8676C24987D5D00801FA7 /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		D2B867702498C97300801FA7 /* SetButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetButton.swift; sourceTree = "<group>"; };
+		D2B867722498D3E400801FA7 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +54,127 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D270B2AE24A03F110014D064 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D270B276249E02E10014D064 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D270B277249E03450014D064 /* Main */,
+				D270B27B249E03E10014D064 /* 傳值測試 */,
+				D270B27C249E04070014D064 /* 傳值測試2 */,
+				D270B27D249E042C0014D064 /* ScrollView測試 */,
+				D270B27E249E044B0014D064 /* Get測試 */,
+				D270B27F249E04690014D064 /* RGB測試 */,
+			);
+			name = Controller;
+			path = view;
+			sourceTree = "<group>";
+		};
+		D270B277249E03450014D064 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D2B8675A24987CB500801FA7 /* ViewController.swift */,
+				D270B27A249E03AD0014D064 /* Model */,
+				D270B278249E03800014D064 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D270B278249E03800014D064 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D2B867702498C97300801FA7 /* SetButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D270B27A249E03AD0014D064 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D2758B2F249CA4CE00DACD08 /* UserDefault.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D270B27B249E03E10014D064 /* 傳值測試 */ = {
+			isa = PBXGroup;
+			children = (
+				D2B8676A24987D0B00801FA7 /* SecondViewController.swift */,
+			);
+			path = "傳值測試";
+			sourceTree = "<group>";
+		};
+		D270B27C249E04070014D064 /* 傳值測試2 */ = {
+			isa = PBXGroup;
+			children = (
+				D2B867722498D3E400801FA7 /* ThirdViewController.swift */,
+			);
+			path = "傳值測試2";
+			sourceTree = "<group>";
+		};
+		D270B27D249E042C0014D064 /* ScrollView測試 */ = {
+			isa = PBXGroup;
+			children = (
+				D2758B25249A004800DACD08 /* FordViewController.swift */,
+			);
+			path = "ScrollView測試";
+			sourceTree = "<group>";
+		};
+		D270B27E249E044B0014D064 /* Get測試 */ = {
+			isa = PBXGroup;
+			children = (
+				D2758B27249AECDC00DACD08 /* FifthViewController.swift */,
+				D2758B29249AFE3E00DACD08 /* Fifth2ViewController.swift */,
+			);
+			path = "Get測試";
+			sourceTree = "<group>";
+		};
+		D270B27F249E04690014D064 /* RGB測試 */ = {
+			isa = PBXGroup;
+			children = (
+				D270B273249CB9C10014D064 /* RGBViewController.swift */,
+				D270B280249E04800014D064 /* Model */,
+			);
+			path = "RGB測試";
+			sourceTree = "<group>";
+		};
+		D270B280249E04800014D064 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D2758B31249CA70A00DACD08 /* RGB.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D270B2AC24A03EFB0014D064 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D270B2AD24A03EFC0014D064 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2758B2E249C9EBE00DACD08 /* Appdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				D2B8676C24987D5D00801FA7 /* Protocol.swift */,
+				D2B8675824987CB500801FA7 /* SceneDelegate.swift */,
+				D2B8675624987CB500801FA7 /* AppDelegate.swift */,
+			);
+			path = Appdelegate;
+			sourceTree = "<group>";
+		};
 		D2B8674A24987CB500801FA7 = {
 			isa = PBXGroup;
 			children = (
 				D2B8675524987CB500801FA7 /* changeView */,
 				D2B8675424987CB500801FA7 /* Products */,
+				D270B2AC24A03EFB0014D064 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,13 +189,13 @@
 		D2B8675524987CB500801FA7 /* changeView */ = {
 			isa = PBXGroup;
 			children = (
-				D2B8675624987CB500801FA7 /* AppDelegate.swift */,
-				D2B8675824987CB500801FA7 /* SceneDelegate.swift */,
-				D2B8675A24987CB500801FA7 /* ViewController.swift */,
 				D2B8675C24987CB500801FA7 /* Main.storyboard */,
-				D2B8675F24987CBA00801FA7 /* Assets.xcassets */,
 				D2B8676124987CBA00801FA7 /* LaunchScreen.storyboard */,
 				D2B8676424987CBA00801FA7 /* Info.plist */,
+				D270B276249E02E10014D064 /* Controller */,
+				D2758B2E249C9EBE00DACD08 /* Appdelegate */,
+				D2B8675F24987CBA00801FA7 /* Assets.xcassets */,
+				D270B2B024A040010014D064 /* BridgeHeader.h */,
 			);
 			path = changeView;
 			sourceTree = "<group>";
@@ -138,9 +271,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2758B28249AECDC00DACD08 /* FifthViewController.swift in Sources */,
+				D2B8676B24987D0B00801FA7 /* SecondViewController.swift in Sources */,
 				D2B8675B24987CB500801FA7 /* ViewController.swift in Sources */,
+				D2758B32249CA70A00DACD08 /* RGB.swift in Sources */,
+				D2758B30249CA4CE00DACD08 /* UserDefault.swift in Sources */,
 				D2B8675724987CB500801FA7 /* AppDelegate.swift in Sources */,
+				D2B867732498D3E400801FA7 /* ThirdViewController.swift in Sources */,
+				D2758B2A249AFE3E00DACD08 /* Fifth2ViewController.swift in Sources */,
+				D270B274249CB9C10014D064 /* RGBViewController.swift in Sources */,
 				D2B8675924987CB500801FA7 /* SceneDelegate.swift in Sources */,
+				D2758B26249A004800DACD08 /* FordViewController.swift in Sources */,
+				D2B867712498C97300801FA7 /* SetButton.swift in Sources */,
+				D2B8676D24987D5D00801FA7 /* Protocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +436,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = try.changeView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = changeView/BridgeHeader.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -311,6 +455,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = try.changeView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = changeView/BridgeHeader.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

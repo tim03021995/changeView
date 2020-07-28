@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SecondViewController.swift
 //  changeView
 //
 //  Created by Alvin Tseng on 2020/6/16.
@@ -8,13 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class SecondViewController: UIViewController {
+    
+    var text: String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        textLabel.text = "傳值測試：\(text!)"
     }
-
-
+    @IBOutlet weak var textLabel: UILabel!
 }
-
